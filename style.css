@@ -1,0 +1,10 @@
+a.navbar-brand img{
+    height: 100px;
+} 
+a.img-fluid{
+    height: 100px;
+}
+.small-img {
+    height: 150px;
+    width: 150px;
+}
