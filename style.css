@@ -14,3 +14,99 @@ a.img-fluid{
 .copyright{
     text-align: center;
 }
+
+.row{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.home-parallax{
+    background-image: url("imgs/johnadams.jpeg");
+    min-height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.home-parallax-text{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#quote {
+	font-style: italic;
+	font-size: 1.4rem;
+	line-height: 1.5;
+	font-weight: 300;
+	margin: 1.8rem 0;
+	border-left: 4px solid #53b7ea;
+	padding-left: 1em;
+}
+/*. is for class
+# is for id */
+.earlylife-parallax{
+    background-image: url("imgs/Adams_bio_Canonical.jpg");
+    min-height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.earlylife-parallax-text{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.d-parallax{
+    background-image: url("imgs/adamsgravesite8.jpg");
+    min-height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.d-parallax-text{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.presidency-parallax{
+    background-image: url("imgs/PSTJPA100238M__98863.jpg");
+    min-height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.presidency-parallax-text{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.rtf-parallax{
+    background-image: url("imgs/Massacre-jpg.webp");
+    min-height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.rtf-parallax-text{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.second-pic{
+    height: 300px;
+    width: 300px;
+}
