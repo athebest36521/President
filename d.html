@@ -68,6 +68,16 @@
               </div>
           </div>
           </div>
+          <div class="row">
+            <div class="col-12">
+              <p id="quote"></p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <p id="quote"></p>
+            </div>
+          </div>
         <div class="row">
             <div class="col-3"><img class="small-img" src="https://picsum.photos/id/684/600/400" alt=""></div>
             <div class="col-9">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse et sapien faucibus, imperdiet lacus ac, fringilla erat. Curabitur ullamcorper eleifend nulla, in tempor lectus blandit a. Etiam diam tortor, varius in volutpat quis, dapibus vel dui. Praesent ornare sit amet purus id volutpat. Cras lacus metus, posuere ut felis id, condimentum viverra enim. Donec dictum leo id nisi iaculis, et ullamcorper lacus tempor. Vestibulum tortor risus, dignissim nec turpis non, iaculis accumsan ex. Duis condimentum odio a magna auctor sodales.
@@ -77,6 +87,32 @@
                   </div>
                   <div id="second-pic" class="col-3"><img src="https://picsum.photos/id/684/600/400" alt=""></div>
               </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <p id="question">
+              </p>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="answer" value = 'A' />
+    <label id ='answer-choice1' class="form-check-label" for="radio-buttons"></label>
+    </div>
+    <div class="form-check">
+    <input class="form-check-input" type="radio" name="answer" value = 'B' />
+    <label id ='answer-choice2' class="form-check-label" for="radio-buttons"></label>
+    </div>
+    <div class="form-check">
+    <input class="form-check-input" type="radio" name="answer" value = 'C' />
+    <label  id ='answer-choice3' class="form-check-label" for="radio-buttons"></label>
+    </div>
+    <div class="form-check">
+    <input class="form-check-input" type="radio" name="answer" value = 'D' />
+    <label id ='answer-choice4' class="form-check-label" for="radio-buttons"></label>
+              </div>
+              <p id="answer"></p>
+              <a class="btn btn-primary" onclick="checkAnswer()">Check Answer</a>
+              <a class="btn btn-primary" onclick="nextQuestion()">Next Question</a>
+              
+            </div>
           </div>
     </main>
     <footer>
@@ -94,5 +130,6 @@
       integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
       crossorigin="anonymous"
     ></script>
+    <script src="script.js"></script>
   </body>
 </html>

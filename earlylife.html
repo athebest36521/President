@@ -93,13 +93,24 @@
           <p id="question">
           </p>
           <div class="form-check">
-            <input class="form-check-input" type="radio" name="answer" id="answer-choices" />
-            <label class="form-check-label" for="radio-buttons"> </label>
-            <input class="form-check-input" type="radio" name="answer" id="answer-choices" />
-            <label class="form-check-label" for="radio-buttons"> </label>
-            <input class="form-check-input" type="radio" name="answer" id="answer-choices" />
-            <label class="form-check-label" for="radio-buttons"> </label>
+            <input class="form-check-input" type="radio" name="answer" value = 'A' />
+<label id ='answer-choice1' class="form-check-label" for="radio-buttons"></label>
+</div>
+<div class="form-check">
+<input class="form-check-input" type="radio" name="answer" value = 'B' />
+<label id ='answer-choice2' class="form-check-label" for="radio-buttons"></label>
+</div>
+<div class="form-check">
+<input class="form-check-input" type="radio" name="answer" value = 'C' />
+<label  id ='answer-choice3' class="form-check-label" for="radio-buttons"></label>
+</div>
+<div class="form-check">
+<input class="form-check-input" type="radio" name="answer" value = 'D' />
+<label id ='answer-choice4' class="form-check-label" for="radio-buttons"></label>
           </div>
+          <p id="answer"></p>
+          <a class="btn btn-primary" onclick="checkAnswer()">Check Answer</a>
+          <a class="btn btn-primary" onclick="nextQuestion()">Next Question</a>
           
         </div>
       </div>
