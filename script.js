@@ -38,7 +38,7 @@ function checkAnswer(){
         document.getElementById('answer').textContent='Yay, you got it right!';
     }
     else{
-       document.getElementById('answer').textContent="Dang it! Try again!";
+       document.getElementById('answer').textContent="Try again!";
     }
 
 
