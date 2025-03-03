@@ -110,3 +110,7 @@ a.img-fluid{
     height: 300px;
     width: 300px;
 }
+.small-img{
+    height: 150px;
+    width: 150px;
+}
